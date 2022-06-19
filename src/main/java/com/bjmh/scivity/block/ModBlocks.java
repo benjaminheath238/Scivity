@@ -10,7 +10,8 @@ public class ModBlocks {
     public static final List<Block> BLOCKS = new ArrayList<>();
 
     public static final Block CEMENT = new ScivityBlock(Material.IRON, "cement");
-    
+    public static final Block ASPHALT = new ScivityBlock(Material.IRON, "asphalt");
+
     public static final Block STRIPES_PANEL_BLACK_WHITE = new ScivityBlock(Material.IRON, "stripes_panel_black_white", 2.5F, 10F, 0F);
     public static final Block STRIPES_PANEL_BLACK_YELLOW = new ScivityBlock(Material.IRON, "stripes_panel_black_yellow", 2.5F, 10F, 0F);
     public static final Block STRIPES_PANEL_RED_WHITE = new ScivityBlock(Material.IRON, "stripes_panel_red_white", 2.5F, 10F, 0F);

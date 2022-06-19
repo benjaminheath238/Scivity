@@ -1,6 +1,7 @@
 itemGroup.scivity_construction_tab=Scivity Construction
 itemGroup.scivity_items_tab=Scivity Items
 tile.scivity.cement.name=Cement
+tile.scivity.asphalt.name=Asphalt
 tile.scivity.stripes_panel_black_white.name=Stripes Panel Black White
 tile.scivity.stripes_panel_black_yellow.name=Stripes Panel Black Yellow
 tile.scivity.stripes_panel_red_white.name=Stripes Panel Red White
