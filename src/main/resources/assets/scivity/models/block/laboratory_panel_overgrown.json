@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "scivity:blocks/laboratory/overgrown/laboratory_panel_overgrown",
+    "down": "scivity:blocks/laboratory/overgrown/laboratory_panel_overgrown",
+    "up": "scivity:blocks/laboratory/overgrown/laboratory_panel_overgrown",
+    "east": "scivity:blocks/laboratory/overgrown/laboratory_panel_overgrown",
+    "west": "scivity:blocks/laboratory/overgrown/laboratory_panel_overgrown",
+    "north": "scivity:blocks/laboratory/overgrown/laboratory_panel_overgrown",
+    "south": "scivity:blocks/laboratory/overgrown/laboratory_panel_overgrown"
+  }
+}
