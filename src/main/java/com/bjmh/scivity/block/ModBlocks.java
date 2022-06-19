@@ -89,7 +89,7 @@ public class ModBlocks {
     public static final Block LABORATORY_PANEL_SHINY_STRIPES_BLACK_YELLOW = new ScivityBlock(Material.IRON, "laboratory_panel_shiny_stripes_black_yellow", 2.5F, 30F, 0F);
     public static final Block LABORATORY_PANEL_SHINY_STRIPES_RED_WHITE = new ScivityBlock(Material.IRON, "laboratory_panel_shiny_stripes_red_white", 2.5F, 30F, 0F);
 
-    public static final Block LABORATORY_PANEL_OVERGROWN_LAMP = new ScivityBlockRotatable(Material.IRON, "laboratory_panel_overgrown_lamp", 2.5F, 20F, 0.1F);
+    public static final Block LABORATORY_PANEL_OVERGROWN_LAMP = new ScivityBlockRotatable(Material.IRON, "laboratory_panel_overgrown_lamp", 2.5F, 20F, 0F);
     public static final Block LABORATORY_PANEL_OVERGROWN = new ScivityBlock(Material.IRON, "laboratory_panel_overgrown", 2.5F, 20F, 0F);
     public static final Block LABORATORY_PANEL_OVERGROWN_STRIPES_BLACK_WHITE = new ScivityBlock(Material.IRON, "laboratory_panel_overgrown_stripes_black_white", 2.5F, 20F, 0F);
     public static final Block LABORATORY_PANEL_OVERGROWN_STRIPES_BLACK_YELLOW = new ScivityBlock(Material.IRON, "laboratory_panel_overgrown_stripes_black_yellow", 2.5F, 20F, 0F);

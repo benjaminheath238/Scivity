@@ -1,5 +1,9 @@
 itemGroup.scivity_construction_tab=Scivity Construction
 itemGroup.scivity_items_tab=Scivity Items
+item.scivity.circuit_basic.name=Circuit Basic
+item.scivity.circuit_advanced.name=Circuit Advanced
+item.scivity.circuit_elite.name=Circuit Elite
+item.scivity.circuit_ultimate.name=Circuit Ultimate
 tile.scivity.cement.name=Cement
 tile.scivity.asphalt.name=Asphalt
 tile.scivity.stripes_panel_black_white.name=Stripes Panel Black White

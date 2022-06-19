@@ -22,6 +22,11 @@ public class ModItems {
 
     // public static final Item METAL_RUSTY_PLATE = new ScivityItem("metal_rusty_plate");
     
+    public static final Item CIRCUIT_BASIC = new ScivityItem("circuit_basic");
+    public static final Item CIRCUIT_ADVANCED = new ScivityItem("circuit_advanced");
+    public static final Item CIRCUIT_ELITE = new ScivityItem("circuit_elite");
+    public static final Item CIRCUIT_ULTIMATE = new ScivityItem("circuit_ultimate");
+
     private ModItems() {
     }
 }
