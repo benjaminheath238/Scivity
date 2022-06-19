@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "scivity:blocks/laboratory/clean/laboratory_panel_clean",
+    "down": "scivity:blocks/laboratory/clean/laboratory_panel_clean",
+    "up": "scivity:blocks/laboratory/clean/laboratory_panel_clean",
+    "east": "scivity:blocks/laboratory/clean/laboratory_panel_clean",
+    "west": "scivity:blocks/laboratory/clean/laboratory_panel_clean",
+    "north": "scivity:blocks/laboratory/clean/laboratory_panel_clean",
+    "south": "scivity:blocks/laboratory/clean/laboratory_panel_clean"
+  }
+}

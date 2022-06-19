@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "scivity:blocks/concrete/light/concrete_light_rebar",
+    "down": "scivity:blocks/concrete/light/concrete_light",
+    "up": "scivity:blocks/concrete/light/concrete_light",
+    "east": "scivity:blocks/concrete/light/concrete_light",
+    "west": "scivity:blocks/concrete/light/concrete_light",
+    "north": "scivity:blocks/concrete/light/concrete_light_rebar",
+    "south": "scivity:blocks/concrete/light/concrete_light_rebar"
+  }
+}

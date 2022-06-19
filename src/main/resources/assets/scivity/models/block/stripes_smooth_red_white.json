@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "scivity:blocks/stripes_smooth_red_white",
+    "down": "scivity:blocks/stripes_smooth_red_white",
+    "up": "scivity:blocks/stripes_smooth_red_white",
+    "east": "scivity:blocks/stripes_smooth_red_white",
+    "west": "scivity:blocks/stripes_smooth_red_white",
+    "north": "scivity:blocks/stripes_smooth_red_white",
+    "south": "scivity:blocks/stripes_smooth_red_white"
+  }
+}

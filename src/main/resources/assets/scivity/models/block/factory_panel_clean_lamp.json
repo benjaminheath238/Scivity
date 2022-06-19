@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "scivity:blocks/factory/clean/factory_panel_clean_lamp",
+    "down": "scivity:blocks/factory/clean/factory_panel_clean",
+    "up": "scivity:blocks/factory/clean/factory_panel_clean",
+    "east": "scivity:blocks/factory/clean/factory_panel_clean",
+    "west": "scivity:blocks/factory/clean/factory_panel_clean",
+    "north": "scivity:blocks/factory/clean/factory_panel_clean_lamp",
+    "south": "scivity:blocks/factory/clean/factory_panel_clean"
+  }
+}

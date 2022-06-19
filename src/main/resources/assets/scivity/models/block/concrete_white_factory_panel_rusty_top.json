@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "scivity:blocks/concrete/white/concrete_white_factory_panel_rusty_top",
+    "down": "scivity:blocks/concrete/white/concrete_white",
+    "up": "scivity:blocks/factory/rusty/factory_panel_rusty",
+    "east": "scivity:blocks/concrete/white/concrete_white_factory_panel_rusty_top",
+    "west": "scivity:blocks/concrete/white/concrete_white_factory_panel_rusty_top",
+    "north": "scivity:blocks/concrete/white/concrete_white_factory_panel_rusty_top",
+    "south": "scivity:blocks/concrete/white/concrete_white_factory_panel_rusty_top"
+  }
+}

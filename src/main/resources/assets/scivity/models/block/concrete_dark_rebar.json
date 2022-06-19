@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "scivity:blocks/concrete/dark/concrete_dark_rebar",
+    "down": "scivity:blocks/concrete/dark/concrete_dark",
+    "up": "scivity:blocks/concrete/dark/concrete_dark",
+    "east": "scivity:blocks/concrete/dark/concrete_dark",
+    "west": "scivity:blocks/concrete/dark/concrete_dark",
+    "north": "scivity:blocks/concrete/dark/concrete_dark_rebar",
+    "south": "scivity:blocks/concrete/dark/concrete_dark_rebar"
+  }
+}
