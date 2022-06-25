@@ -4,7 +4,14 @@ import com.bjmh.scivity.item.ScivityItem;
 
 import net.minecraft.item.Item;
 
-public class ItemFactroy {
+public class ItemFactory {
+    /**
+     * Generates groups of items using a user defined generator.
+     * 
+     * @param num the number of types
+     * @param generator the generator to use
+     * @return the generated items
+     */
     public static Item[] generate(int num, IItemGenerator generator) {
         Item[] out = new Item[num];
 
@@ -15,6 +22,14 @@ public class ItemFactroy {
         return out;
     }
 
+    /**
+     * Generates groups with sub-groups of items using a user defined generator.
+     * 
+     * @param num1 the number of main types
+     * @param num2 the number of sub types
+     * @param generator the generator to use
+     * @return the generated items
+     */
     public static Item[][] generate(int num1, int num2, IItemGenerator generator) {
         Item[][] out = new Item[num1][num2];
 

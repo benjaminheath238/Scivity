@@ -4,17 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.bjmh.scivity.factory.IItemGenerator;
-import com.bjmh.scivity.factory.ItemFactroy;
+import com.bjmh.scivity.factory.ItemFactory;
 
 import net.minecraft.item.Item;
 
 public class ModItems {
     public static final List<Item> ITEMS = new ArrayList<>();
 
-    public static final Item[][] CIRCUITS = ItemFactroy.generate(4, 4, new IItemGenerator() {
+    public static final Item[][] CIRCUITS = ItemFactory.generate(5, 4, new IItemGenerator() {
 
-        private int i = 0;
-        private int j = 0;
+        private int num2 = 0;
+        private int num1 = 0;
 
         @Override
         public String name() {
@@ -26,12 +26,12 @@ public class ModItems {
             String type = "";
             String level = "";
 
-            if (i > 3) {
-                i = 0;
-                j++;
+            if (num2 > 3) {
+                num2 = 0;
+                num1++;
             }
 
-            switch (j) {
+            switch (num1) {
                 case 0:
                     level = "basic";
                     break;
@@ -51,7 +51,7 @@ public class ModItems {
                     break;
             }
 
-            switch (i++) {
+            switch (num2++) {
                 case 0:
                     type = "green";
                     break;
