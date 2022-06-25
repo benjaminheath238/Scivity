@@ -1,5 +1,9 @@
 itemGroup.scivity_construction_tab=Scivity Construction
 itemGroup.scivity_items_tab=Scivity Items
+item.scivity.circuit_board_green.name=Circuit Board Green
+item.scivity.circuit_board_red.name=Circuit Board Red
+item.scivity.circuit_board_blue.name=Circuit Board Blue
+item.scivity.circuit_board_purple.name=Circuit Board Purple
 item.scivity.circuit_basic_green.name=Circuit Basic Green
 item.scivity.circuit_basic_red.name=Circuit Basic Red
 item.scivity.circuit_basic_blue.name=Circuit Basic Blue

@@ -44,6 +44,9 @@ public class ModItems {
                 case 3:
                     level = "ultimate";
                     break;
+                case 4:
+                    level = "board";
+                    break;
                 default:
                     break;
             }
