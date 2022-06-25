@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "scivity:items/circuit/ultimate/circuit_ultimate_purple"
+  }
+}

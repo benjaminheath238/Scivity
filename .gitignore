@@ -1,8 +1,9 @@
 # Compiled Java class files
 *.class
 
-# Log files
+# Logs
 *.log
+logs/
 
 # Package files
 *.jar
@@ -13,9 +14,6 @@ dist/
 
 # VSCode
 .vscode/
-
-# Metals
-.metals/
 
 # Unit test reports
 TEST*.xml

@@ -23,7 +23,7 @@ public class ScivityTabs {
     public static final CreativeTabs ScivityItemsTab = new CreativeTabs("scivity_items_tab") {
         @SideOnly(Side.CLIENT)
         public ItemStack getTabIconItem() {
-            return new ItemStack(ModItems.CIRCUIT_ADVANCED);
+            return new ItemStack(ModItems.CIRCUITS[0][0]);
         }
     };
 

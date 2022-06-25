@@ -3,29 +3,72 @@ package com.bjmh.scivity.item;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.bjmh.scivity.factory.IItemGenerator;
+import com.bjmh.scivity.factory.ItemFactroy;
+
 import net.minecraft.item.Item;
 
 public class ModItems {
     public static final List<Item> ITEMS = new ArrayList<>();
 
-    // public static final Item FACTORY_CLEAN_PLATE = new ScivityItem("factory_clean_plate");
-    // public static final Item BLAST_CHAMBER_CLEAN_PLATE = new ScivityItem("blast_chamber_clean_plate");
-    // public static final Item LABORATORY_CLEAN_PLATE = new ScivityItem("laboratory_clean_plate");
+    public static final Item[][] CIRCUITS = ItemFactroy.generate(4, 4, new IItemGenerator() {
 
-    // public static final Item BLAST_CHAMBER_CORRODED_PLATE = new ScivityItem("blast_chamber_corroded_plate");
-    // public static final Item LABORATORY_CORRODED_PLATE = new ScivityItem("laboratory_corroded_plate");
-    // public static final Item FACTORY_CORRODED_PLATE = new ScivityItem("factory_corroded_plate");
-    
-    // public static final Item STRIPES_WHITE_BLACK_PLATE = new ScivityItem("stripes_white_black_plate");
-    // public static final Item STRIPES_YELLOW_BLACK_PLATE = new ScivityItem("stripes_yellow_black_plate");
-    // public static final Item STRIPES_WHITE_RED_PLATE = new ScivityItem("stripes_white_red_plate");
+        private int i = 0;
+        private int j = 0;
 
-    // public static final Item METAL_RUSTY_PLATE = new ScivityItem("metal_rusty_plate");
-    
-    public static final Item CIRCUIT_BASIC = new ScivityItem("circuit_basic");
-    public static final Item CIRCUIT_ADVANCED = new ScivityItem("circuit_advanced");
-    public static final Item CIRCUIT_ELITE = new ScivityItem("circuit_elite");
-    public static final Item CIRCUIT_ULTIMATE = new ScivityItem("circuit_ultimate");
+        @Override
+        public String name() {
+            return "circuit";
+        }
+
+        @Override
+        public String next() {
+            String type = "";
+            String level = "";
+
+            if (i > 3) {
+                i = 0;
+                j++;
+            }
+
+            switch (j) {
+                case 0:
+                    level = "basic";
+                    break;
+                case 1:
+                    level = "advanced";
+                    break;
+                case 2:
+                    level = "elite";
+                    break;
+                case 3:
+                    level = "ultimate";
+                    break;
+                default:
+                    break;
+            }
+
+            switch (i++) {
+                case 0:
+                    type = "green";
+                    break;
+                case 1:
+                    type = "red";
+                    break;
+                case 2:
+                    type = "blue";
+                    break;
+                case 3:
+                    type = "purple";
+                    break;
+                default:
+                    break;
+            }
+
+            return level + "_" + type;
+        }
+
+    });
 
     private ModItems() {
     }
