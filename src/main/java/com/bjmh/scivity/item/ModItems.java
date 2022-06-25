@@ -3,7 +3,7 @@ package com.bjmh.scivity.item;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.bjmh.scivity.factory.IItemGenerator;
+import com.bjmh.scivity.factory.ItemGenerator;
 import com.bjmh.scivity.factory.ItemFactory;
 
 import net.minecraft.item.Item;
@@ -11,7 +11,7 @@ import net.minecraft.item.Item;
 public class ModItems {
     public static final List<Item> ITEMS = new ArrayList<>();
 
-    public static final Item[][] CIRCUITS = ItemFactory.generate(5, 4, new IItemGenerator() {
+    public static final Item[][] CIRCUITS = ItemFactory.generate(5, 4, new ItemGenerator() {
 
         private int num2 = 0;
         private int num1 = 0;
