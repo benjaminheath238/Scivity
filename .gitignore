@@ -1,39 +1,26 @@
-# Compiled Java class files
-*.class
-
-# Logs
-*.log
-logs/
-
-# Package files
-*.jar
-
-# Maven
-target/
-dist/
-
-# VSCode
-.vscode/
-
-# Unit test reports
-TEST*.xml
-
-# Large media files
-*.mp4
-*.tiff
-*.avi
-*.flv
-*.mov
-*.wmv
-
 # Gradle
 build
 .gradle
 
-# Other
-eclipse
-run
-bin/
+# VSCode
+.vscode
 
-# Files from Forge MDK
-forge*changelog.txt
+# Other
+logs
+run
+bin
+
+# eclipse
+eclipse
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
