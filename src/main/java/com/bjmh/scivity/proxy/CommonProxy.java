@@ -38,6 +38,8 @@ public class CommonProxy {
 
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
+        ModItems.init();
+        
         for (Item item : ModItems.ITEMS) {
             event.getRegistry().register(item);
         }

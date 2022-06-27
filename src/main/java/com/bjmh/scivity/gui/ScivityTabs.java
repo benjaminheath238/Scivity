@@ -16,14 +16,14 @@ public class ScivityTabs {
     public static final CreativeTabs ScivityConstructionTab = new CreativeTabs("scivity_construction_tab") {
         @SideOnly(Side.CLIENT)
         public ItemStack getTabIconItem() {
-            return new ItemStack(ModBlocks.BLOCKS.get(0));
+            return new ItemStack(ModBlocks.STRIPES.get(3));
         }
     };
 
     public static final CreativeTabs ScivityItemsTab = new CreativeTabs("scivity_items_tab") {
         @SideOnly(Side.CLIENT)
         public ItemStack getTabIconItem() {
-            return new ItemStack(ModBlocks.BLOCKS.get(0));
+            return new ItemStack(ModItems.ITEMS.get(7));
         }
     };
 
