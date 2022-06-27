@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "scivity:blocks/factory/rusty/factory_rusty",
+    "down": "scivity:blocks/factory/rusty/factory_rusty",
+    "up": "scivity:blocks/factory/rusty/factory_rusty",
+    "east": "scivity:blocks/factory/rusty/factory_rusty",
+    "west": "scivity:blocks/factory/rusty/factory_rusty",
+    "north": "scivity:blocks/factory/rusty/factory_rusty",
+    "south": "scivity:blocks/factory/rusty/factory_rusty"
+  }
+}

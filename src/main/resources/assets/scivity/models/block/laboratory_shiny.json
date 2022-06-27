@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "scivity:blocks/laboratory/shiny/laboratory_shiny",
+    "down": "scivity:blocks/laboratory/shiny/laboratory_shiny",
+    "up": "scivity:blocks/laboratory/shiny/laboratory_shiny",
+    "east": "scivity:blocks/laboratory/shiny/laboratory_shiny",
+    "west": "scivity:blocks/laboratory/shiny/laboratory_shiny",
+    "north": "scivity:blocks/laboratory/shiny/laboratory_shiny",
+    "south": "scivity:blocks/laboratory/shiny/laboratory_shiny"
+  }
+}

@@ -9,6 +9,7 @@ build
 logs
 run
 bin
+prototype
 
 # eclipse
 eclipse
