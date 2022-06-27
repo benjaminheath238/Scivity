@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "scivity:blocks/concrete/orange/concrete_orange",
+    "down": "scivity:blocks/concrete/orange/concrete_orange",
+    "up": "scivity:blocks/concrete/orange/concrete_orange",
+    "east": "scivity:blocks/concrete/orange/concrete_orange",
+    "west": "scivity:blocks/concrete/orange/concrete_orange",
+    "north": "scivity:blocks/concrete/orange/concrete_orange",
+    "south": "scivity:blocks/concrete/orange/concrete_orange"
+  }
+}

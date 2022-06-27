@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "scivity:blocks/concrete/purple/concrete_purple_factory_dark_top",
+    "down": "scivity:blocks/concrete/purple/concrete_purple",
+    "up": "scivity:blocks/factory/dark/factory_dark_panel",
+    "east": "scivity:blocks/concrete/purple/concrete_purple_factory_dark_top",
+    "west": "scivity:blocks/concrete/purple/concrete_purple_factory_dark_top",
+    "north": "scivity:blocks/concrete/purple/concrete_purple_factory_dark_top",
+    "south": "scivity:blocks/concrete/purple/concrete_purple_factory_dark_top"
+  }
+}

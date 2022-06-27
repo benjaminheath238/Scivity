@@ -1,7 +1,7 @@
 {
   "forge_marker": 1,
   "defaults": {
-    "model": "scivity:concrete_light_stripes_black_yellow_bottom"
+    "model": "scivity:concrete/light/concrete_light_stripes_black_yellow_bottom"
   },
   "variants": {
     "normal": [{}],

@@ -1,7 +1,7 @@
 {
   "forge_marker": 1,
   "defaults": {
-    "model": "scivity:laboratory_shiny_panel"
+    "model": "scivity:laboratory/shiny/laboratory_shiny_panel"
   },
   "variants": {
     "normal": [{}],

@@ -87,6 +87,214 @@ public enum ModBlocks {
         }
     },
 
+    CONCRETE_BLUE() {
+        private Block[] blocks;
+
+        @Override
+        public void load(BlockFactory factory) {
+            blocks = factory.newBlockGroup("concrete_blue", 5F, 50F, 0F, Material.ROCK, false)
+                    .next()
+                    .next("factory_clean_top")
+                    .next("factory_dark_top")
+                    .next("factory_rusty_top")
+                    .next("factory_shiny_top")
+                    .next("laboratory_clean_top")
+                    .next("laboratory_shiny_top")
+                    .next("stripes_black_white_bottom")
+                    .next("stripes_black_yellow_bottom")
+                    .next("stripes_red_white_bottom")
+                    .next("lamp", 5F, 50F, 1F, Material.ROCK, true)
+                    .build();
+        }
+
+        @Override
+        public Block get(int index) {
+            return blocks[index];
+        }
+    },
+
+    CONCRETE_CYAN() {
+        private Block[] blocks;
+
+        @Override
+        public void load(BlockFactory factory) {
+            blocks = factory.newBlockGroup("concrete_cyan", 5F, 50F, 0F, Material.ROCK, false)
+                    .next()
+                    .next("factory_clean_top")
+                    .next("factory_dark_top")
+                    .next("factory_rusty_top")
+                    .next("factory_shiny_top")
+                    .next("laboratory_clean_top")
+                    .next("laboratory_shiny_top")
+                    .next("stripes_black_white_bottom")
+                    .next("stripes_black_yellow_bottom")
+                    .next("stripes_red_white_bottom")
+                    .next("lamp", 5F, 50F, 1F, Material.ROCK, true)
+                    .build();
+        }
+
+        @Override
+        public Block get(int index) {
+            return blocks[index];
+        }
+    },
+
+    CONCRETE_GREEN() {
+        private Block[] blocks;
+
+        @Override
+        public void load(BlockFactory factory) {
+            blocks = factory.newBlockGroup("concrete_green", 5F, 50F, 0F, Material.ROCK, false)
+                    .next()
+                    .next("factory_clean_top")
+                    .next("factory_dark_top")
+                    .next("factory_rusty_top")
+                    .next("factory_shiny_top")
+                    .next("laboratory_clean_top")
+                    .next("laboratory_shiny_top")
+                    .next("stripes_black_white_bottom")
+                    .next("stripes_black_yellow_bottom")
+                    .next("stripes_red_white_bottom")
+                    .next("lamp", 5F, 50F, 1F, Material.ROCK, true)
+                    .build();
+        }
+
+        @Override
+        public Block get(int index) {
+            return blocks[index];
+        }
+    },
+
+    CONCRETE_MAGENTA() {
+        private Block[] blocks;
+
+        @Override
+        public void load(BlockFactory factory) {
+            blocks = factory.newBlockGroup("concrete_magenta", 5F, 50F, 0F, Material.ROCK, false)
+                    .next()
+                    .next("factory_clean_top")
+                    .next("factory_dark_top")
+                    .next("factory_rusty_top")
+                    .next("factory_shiny_top")
+                    .next("laboratory_clean_top")
+                    .next("laboratory_shiny_top")
+                    .next("stripes_black_white_bottom")
+                    .next("stripes_black_yellow_bottom")
+                    .next("stripes_red_white_bottom")
+                    .next("lamp", 5F, 50F, 1F, Material.ROCK, true)
+                    .build();
+        }
+
+        @Override
+        public Block get(int index) {
+            return blocks[index];
+        }
+    },
+
+    CONCRETE_ORANGE() {
+        private Block[] blocks;
+
+        @Override
+        public void load(BlockFactory factory) {
+            blocks = factory.newBlockGroup("concrete_orange", 5F, 50F, 0F, Material.ROCK, false)
+                    .next()
+                    .next("factory_clean_top")
+                    .next("factory_dark_top")
+                    .next("factory_rusty_top")
+                    .next("factory_shiny_top")
+                    .next("laboratory_clean_top")
+                    .next("laboratory_shiny_top")
+                    .next("stripes_black_white_bottom")
+                    .next("stripes_black_yellow_bottom")
+                    .next("stripes_red_white_bottom")
+                    .next("lamp", 5F, 50F, 1F, Material.ROCK, true)
+                    .build();
+        }
+
+        @Override
+        public Block get(int index) {
+            return blocks[index];
+        }
+    },
+
+    CONCRETE_PURPLE() {
+        private Block[] blocks;
+
+        @Override
+        public void load(BlockFactory factory) {
+            blocks = factory.newBlockGroup("concrete_purple", 5F, 50F, 0F, Material.ROCK, false)
+                    .next()
+                    .next("factory_clean_top")
+                    .next("factory_dark_top")
+                    .next("factory_rusty_top")
+                    .next("factory_shiny_top")
+                    .next("laboratory_clean_top")
+                    .next("laboratory_shiny_top")
+                    .next("stripes_black_white_bottom")
+                    .next("stripes_black_yellow_bottom")
+                    .next("stripes_red_white_bottom")
+                    .next("lamp", 5F, 50F, 1F, Material.ROCK, true)
+                    .build();
+        }
+
+        @Override
+        public Block get(int index) {
+            return blocks[index];
+        }
+    },
+
+    CONCRETE_RED() {
+        private Block[] blocks;
+
+        @Override
+        public void load(BlockFactory factory) {
+            blocks = factory.newBlockGroup("concrete_red", 5F, 50F, 0F, Material.ROCK, false)
+                    .next()
+                    .next("factory_clean_top")
+                    .next("factory_dark_top")
+                    .next("factory_rusty_top")
+                    .next("factory_shiny_top")
+                    .next("laboratory_clean_top")
+                    .next("laboratory_shiny_top")
+                    .next("stripes_black_white_bottom")
+                    .next("stripes_black_yellow_bottom")
+                    .next("stripes_red_white_bottom")
+                    .next("lamp", 5F, 50F, 1F, Material.ROCK, true)
+                    .build();
+        }
+
+        @Override
+        public Block get(int index) {
+            return blocks[index];
+        }
+    },
+
+    CONCRETE_YELLOW() {
+        private Block[] blocks;
+
+        @Override
+        public void load(BlockFactory factory) {
+            blocks = factory.newBlockGroup("concrete_yellow", 5F, 50F, 0F, Material.ROCK, false)
+                    .next()
+                    .next("factory_clean_top")
+                    .next("factory_dark_top")
+                    .next("factory_rusty_top")
+                    .next("factory_shiny_top")
+                    .next("laboratory_clean_top")
+                    .next("laboratory_shiny_top")
+                    .next("stripes_black_white_bottom")
+                    .next("stripes_black_yellow_bottom")
+                    .next("stripes_red_white_bottom")
+                    .next("lamp", 5F, 50F, 1F, Material.ROCK, true)
+                    .build();
+        }
+
+        @Override
+        public Block get(int index) {
+            return blocks[index];
+        }
+    },
+
     FACTORY_CLEAN() {
         private Block[] blocks;
 

@@ -1,7 +1,7 @@
 {
   "forge_marker": 1,
   "defaults": {
-    "model": "scivity:concrete_dark_factory_dark_top"
+    "model": "scivity:concrete/dark/concrete_dark_factory_dark_top"
   },
   "variants": {
     "normal": [{}],

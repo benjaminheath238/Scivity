@@ -1,7 +1,7 @@
 {
   "forge_marker": 1,
   "defaults": {
-    "model": "scivity:factory_dark_stripes_black_white_bottom"
+    "model": "scivity:factory/dark/factory_dark_stripes_black_white_bottom"
   },
   "variants": {
     "normal": [{}],

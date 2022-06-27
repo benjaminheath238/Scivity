@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "scivity:blocks/concrete/green/concrete_green_lamp",
+    "down": "scivity:blocks/concrete/green/concrete_green",
+    "up": "scivity:blocks/concrete/green/concrete_green",
+    "east": "scivity:blocks/concrete/green/concrete_green",
+    "west": "scivity:blocks/concrete/green/concrete_green",
+    "north": "scivity:blocks/concrete/green/concrete_green_lamp",
+    "south": "scivity:blocks/concrete/green/concrete_green"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "forge_marker": 1,
   "defaults": {
-    "model": "scivity:concrete_white_laboratory_clean_top"
+    "model": "scivity:concrete/white/concrete_white_laboratory_clean_top"
   },
   "variants": {
     "normal": [{}],

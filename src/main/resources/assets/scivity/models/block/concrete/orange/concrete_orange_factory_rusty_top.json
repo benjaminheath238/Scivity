@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "scivity:blocks/concrete/orange/concrete_orange_factory_rusty_top",
+    "down": "scivity:blocks/concrete/orange/concrete_orange",
+    "up": "scivity:blocks/factory/rusty/factory_rusty_panel",
+    "east": "scivity:blocks/concrete/orange/concrete_orange_factory_rusty_top",
+    "west": "scivity:blocks/concrete/orange/concrete_orange_factory_rusty_top",
+    "north": "scivity:blocks/concrete/orange/concrete_orange_factory_rusty_top",
+    "south": "scivity:blocks/concrete/orange/concrete_orange_factory_rusty_top"
+  }
+}

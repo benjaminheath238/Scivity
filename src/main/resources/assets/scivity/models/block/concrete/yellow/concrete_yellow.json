@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "scivity:blocks/concrete/yellow/concrete_yellow",
+    "down": "scivity:blocks/concrete/yellow/concrete_yellow",
+    "up": "scivity:blocks/concrete/yellow/concrete_yellow",
+    "east": "scivity:blocks/concrete/yellow/concrete_yellow",
+    "west": "scivity:blocks/concrete/yellow/concrete_yellow",
+    "north": "scivity:blocks/concrete/yellow/concrete_yellow",
+    "south": "scivity:blocks/concrete/yellow/concrete_yellow"
+  }
+}

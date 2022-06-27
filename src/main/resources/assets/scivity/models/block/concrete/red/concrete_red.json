@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "scivity:blocks/concrete/red/concrete_red",
+    "down": "scivity:blocks/concrete/red/concrete_red",
+    "up": "scivity:blocks/concrete/red/concrete_red",
+    "east": "scivity:blocks/concrete/red/concrete_red",
+    "west": "scivity:blocks/concrete/red/concrete_red",
+    "north": "scivity:blocks/concrete/red/concrete_red",
+    "south": "scivity:blocks/concrete/red/concrete_red"
+  }
+}

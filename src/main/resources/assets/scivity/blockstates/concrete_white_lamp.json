@@ -1,7 +1,7 @@
 {
   "forge_marker": 1,
   "defaults": {
-    "model": "scivity:concrete_white_lamp"
+    "model": "scivity:concrete/white/concrete_white_lamp"
   },
   "variants": {
     "normal": [{}],

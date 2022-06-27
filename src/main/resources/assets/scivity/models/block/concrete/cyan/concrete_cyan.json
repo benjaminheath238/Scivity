@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "scivity:blocks/concrete/cyan/concrete_cyan",
+    "down": "scivity:blocks/concrete/cyan/concrete_cyan",
+    "up": "scivity:blocks/concrete/cyan/concrete_cyan",
+    "east": "scivity:blocks/concrete/cyan/concrete_cyan",
+    "west": "scivity:blocks/concrete/cyan/concrete_cyan",
+    "north": "scivity:blocks/concrete/cyan/concrete_cyan",
+    "south": "scivity:blocks/concrete/cyan/concrete_cyan"
+  }
+}

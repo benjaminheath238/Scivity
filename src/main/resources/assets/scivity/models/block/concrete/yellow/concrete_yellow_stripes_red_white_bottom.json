@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "scivity:blocks/concrete/yellow/concrete_yellow_stripes_red_white_bottom",
+    "down": "scivity:blocks/stripes_red_white_panel",
+    "up": "scivity:blocks/concrete/yellow/concrete_yellow",
+    "east": "scivity:blocks/concrete/yellow/concrete_yellow_stripes_red_white_bottom",
+    "west": "scivity:blocks/concrete/yellow/concrete_yellow_stripes_red_white_bottom",
+    "north": "scivity:blocks/concrete/yellow/concrete_yellow_stripes_red_white_bottom",
+    "south": "scivity:blocks/concrete/yellow/concrete_yellow_stripes_red_white_bottom"
+  }
+}
