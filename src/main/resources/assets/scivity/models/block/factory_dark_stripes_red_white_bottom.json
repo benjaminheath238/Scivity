@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "scivity:blocks/factory/dark/factory_dark_stripes_red_white_bottom",
+    "down": "scivity:blocks/stripes_red_white_panel",
+    "up": "scivity:blocks/factory/dark/factory_dark_panel",
+    "east": "scivity:blocks/factory/dark/factory_dark_stripes_red_white_bottom",
+    "west": "scivity:blocks/factory/dark/factory_dark_stripes_red_white_bottom",
+    "north": "scivity:blocks/factory/dark/factory_dark_stripes_red_white_bottom",
+    "south": "scivity:blocks/factory/dark/factory_dark_stripes_red_white_bottom"
+  }
+}

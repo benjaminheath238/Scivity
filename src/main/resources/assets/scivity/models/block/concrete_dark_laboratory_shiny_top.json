@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "scivity:blocks/concrete/dark/concrete_dark_laboratory_shiny_top",
+    "down": "scivity:blocks/concrete/dark/concrete_dark",
+    "up": "scivity:blocks/laboratory/shiny/laboratory_shiny_panel",
+    "east": "scivity:blocks/concrete/dark/concrete_dark_laboratory_shiny_top",
+    "west": "scivity:blocks/concrete/dark/concrete_dark_laboratory_shiny_top",
+    "north": "scivity:blocks/concrete/dark/concrete_dark_laboratory_shiny_top",
+    "south": "scivity:blocks/concrete/dark/concrete_dark_laboratory_shiny_top"
+  }
+}

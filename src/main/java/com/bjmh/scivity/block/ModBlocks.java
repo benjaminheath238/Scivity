@@ -16,6 +16,16 @@ public enum ModBlocks {
         public void load(BlockFactory factory) {
             blocks = factory.newBlockGroup("concrete_dark", 5F, 50F, 0F, Material.ROCK, false)
                     .next()
+                    .next("factory_clean_top")
+                    .next("factory_dark_top")
+                    .next("factory_rusty_top")
+                    .next("factory_shiny_top")
+                    .next("laboratory_clean_top")
+                    .next("laboratory_shiny_top")
+                    .next("stripes_black_white_bottom")
+                    .next("stripes_black_yellow_bottom")
+                    .next("stripes_red_white_bottom")
+                    .next("lamp", 5F, 50F, 1F, Material.ROCK, true)
                     .build();
         }
 
@@ -32,6 +42,16 @@ public enum ModBlocks {
         public void load(BlockFactory factory) {
             blocks = factory.newBlockGroup("concrete_light", 5F, 50F, 0F, Material.ROCK, false)
                     .next()
+                    .next("factory_clean_top")
+                    .next("factory_dark_top")
+                    .next("factory_rusty_top")
+                    .next("factory_shiny_top")
+                    .next("laboratory_clean_top")
+                    .next("laboratory_shiny_top")
+                    .next("stripes_black_white_bottom")
+                    .next("stripes_black_yellow_bottom")
+                    .next("stripes_red_white_bottom")
+                    .next("lamp", 5F, 50F, 1F, Material.ROCK, true)
                     .build();
         }
 
@@ -48,6 +68,16 @@ public enum ModBlocks {
         public void load(BlockFactory factory) {
             blocks = factory.newBlockGroup("concrete_white", 5F, 50F, 0F, Material.ROCK, false)
                     .next()
+                    .next("factory_clean_top")
+                    .next("factory_dark_top")
+                    .next("factory_rusty_top")
+                    .next("factory_shiny_top")
+                    .next("laboratory_clean_top")
+                    .next("laboratory_shiny_top")
+                    .next("stripes_black_white_bottom")
+                    .next("stripes_black_yellow_bottom")
+                    .next("stripes_red_white_bottom")
+                    .next("lamp", 5F, 50F, 1F, Material.IRON, true)
                     .build();
         }
 
@@ -65,6 +95,10 @@ public enum ModBlocks {
             blocks = factory.newBlockGroup("factory_clean", 5F, 25F, 0F, Material.IRON, false)
                     .next()
                     .next("panel")
+                    .next("stripes_black_white_bottom")
+                    .next("stripes_black_yellow_bottom")
+                    .next("stripes_red_white_bottom")
+                    .next("lamp", 5F, 25F, 1F, Material.IRON, true)
                     .build();
         }
 
@@ -82,6 +116,10 @@ public enum ModBlocks {
             blocks = factory.newBlockGroup("factory_dark", 5F, 30F, 0F, Material.IRON, false)
                     .next()
                     .next("panel")
+                    .next("stripes_black_white_bottom")
+                    .next("stripes_black_yellow_bottom")
+                    .next("stripes_red_white_bottom")
+                    .next("lamp", 5F, 30F, 1F, Material.IRON, true)
                     .build();
         }
 
@@ -99,6 +137,10 @@ public enum ModBlocks {
             blocks = factory.newBlockGroup("factory_rusty", 5F, 10F, 0F, Material.IRON, false)
                     .next()
                     .next("panel")
+                    .next("stripes_black_white_bottom")
+                    .next("stripes_black_yellow_bottom")
+                    .next("stripes_red_white_bottom")
+                    .next("lamp", 5F, 10F, 1F, Material.IRON, true)
                     .build();
         }
 
@@ -116,6 +158,10 @@ public enum ModBlocks {
             blocks = factory.newBlockGroup("factory_shiny", 5F, 25F, 0F, Material.IRON, false)
                     .next()
                     .next("panel")
+                    .next("stripes_black_white_bottom")
+                    .next("stripes_black_yellow_bottom")
+                    .next("stripes_red_white_bottom")
+                    .next("lamp", 5F, 25F, 1F, Material.IRON, true)
                     .build();
         }
 
@@ -133,6 +179,10 @@ public enum ModBlocks {
             blocks = factory.newBlockGroup("laboratory_clean", 5F, 15F, 0F, Material.IRON, false)
                     .next()
                     .next("panel")
+                    .next("stripes_black_white_bottom")
+                    .next("stripes_black_yellow_bottom")
+                    .next("stripes_red_white_bottom")
+                    .next("lamp", 5F, 15F, 1F, Material.IRON, true)
                     .build();
         }
 
@@ -150,6 +200,10 @@ public enum ModBlocks {
             blocks = factory.newBlockGroup("laboratory_shiny", 5F, 15F, 0F, Material.IRON, false)
                     .next()
                     .next("panel")
+                    .next("stripes_black_white_bottom")
+                    .next("stripes_black_yellow_bottom")
+                    .next("stripes_red_white_bottom")
+                    .next("lamp", 5F, 15F, 1F, Material.IRON, true)
                     .build();
         }
 
@@ -171,6 +225,9 @@ public enum ModBlocks {
                     .next("black_yellow_panel")
                     .next("red_white")
                     .next("red_white_panel")
+                    .next("black_white_lamp", 5F, 25F, 1F, Material.IRON, true)
+                    .next("black_yellow_lamp", 5F, 25F, 1F, Material.IRON, true)
+                    .next("red_white_lamp", 5F, 25F, 1F, Material.IRON, true)
                     .build();
         }
 
