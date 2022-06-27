@@ -9,7 +9,7 @@ import net.minecraft.item.Item;
 
 public class ItemFactory {
     private String baseName;
-    private List<Item> items;
+    private List<Item > items;
 
     public ItemFactory() {
     }
