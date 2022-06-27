@@ -30,6 +30,23 @@ public enum ModItems {
         public Item get(int index) {
             return items[index];
         }
+    },
+    
+    OTHER() {
+        private Item[] items;
+
+        @Override
+        public void load(ItemFactory factory) {
+            items = factory.newItemGroup("cement_bag")
+                    .next("25")
+                    .next("50")
+                    .build();
+        }
+
+        @Override
+        public Item get(int index) {
+            return items[index];
+        }
     };
 
     public static final List<Item> ITEMS = new ArrayList<>();
