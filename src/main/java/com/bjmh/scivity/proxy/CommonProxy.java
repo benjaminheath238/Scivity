@@ -29,6 +29,8 @@ public class CommonProxy {
 
     @SubscribeEvent
     public static void registerBlocks(RegistryEvent.Register<Block> event) {
+        ModBlocks.init();
+
         for (Block block : ModBlocks.BLOCKS) {
             event.getRegistry().register(block);
         }
