@@ -15,6 +15,7 @@ public class ItemFactory {
     }
 
     public ItemFactory newItemGroup(String baseName) {
+        this.baseName = baseName;
         this.items = new ArrayList<>();
         return this;
     }
