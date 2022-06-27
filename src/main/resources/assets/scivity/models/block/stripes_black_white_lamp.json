@@ -2,11 +2,11 @@
   "parent": "block/cube",
   "textures": {
     "particle": "scivity:blocks/stripes_black_white_lamp",
-    "down": "scivity:blocks/stripes_black_white",
-    "up": "scivity:blocks/stripes_black_white",
-    "east": "scivity:blocks/stripes_black_white",
-    "west": "scivity:blocks/stripes_black_white",
+    "down": "scivity:blocks/stripes_black_white_panel",
+    "up": "scivity:blocks/stripes_black_white_panel",
+    "east": "scivity:blocks/stripes_black_white_panel",
+    "west": "scivity:blocks/stripes_black_white_panel",
     "north": "scivity:blocks/stripes_black_white_lamp",
-    "south": "scivity:blocks/stripes_black_white"
+    "south": "scivity:blocks/stripes_black_white_panel"
   }
 }
