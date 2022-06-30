@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "scivity:items/cement_bag_25"
+    "layer0": "scivity:items/plate_laboratory_clean"
   }
 }

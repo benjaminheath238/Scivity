@@ -1,5 +1,16 @@
 itemGroup.scivity_construction_tab=Scivity Construction
 itemGroup.scivity_items_tab=Scivity Items
+item.scivity.cement_sack_25.name=Sack Of Cement
+item.scivity.cement_sack_50.name=Sack Of Cement
+item.scivity.plate_factory_clean.name=Clean Factory Plate
+item.scivity.plate_factory_dark.name=Dark Factory Plate
+item.scivity.plate_factory_rusty.name=Rusty Factory Plate
+item.scivity.plate_factory_shiny.name=Shiny Factory Plate
+item.scivity.plate_laboratory_clean.name=Clean Laboratory Plate
+item.scivity.plate_laboratory_shiny.name=Shiny Laboratory Plate
+item.scivity.plate_stripes_black_white.name=Black and White Stripes Plate
+item.scivity.plate_stripes_black_yellow.name=Black and Yellow Stripes Plate
+item.scivity.plate_stripes_red_white.name=Red and White Stripes Plate
 tile.scivity.stripes_black_white_panel.name=Stripes Black White Panel
 tile.scivity.stripes_black_white.name=Stripes Black White
 tile.scivity.stripes_black_white_lamp.name=Stripes Black White Lamp

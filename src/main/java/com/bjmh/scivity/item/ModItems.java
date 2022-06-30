@@ -37,7 +37,7 @@ public enum ModItems {
 
         @Override
         public void load(ItemFactory factory) {
-            items = factory.newItemGroup("cement_bag")
+            items = factory.newItemGroup("cement_sack")
                     .next("25")
                     .next("50")
                     .build();
