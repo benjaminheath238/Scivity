@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "scivity:blocks/stripes/black_yellow/stripes_black_yellow_lamp",
+    "down": "scivity:blocks/stripes/black_yellow/stripes_black_yellow",
+    "up": "scivity:blocks/stripes/black_yellow/stripes_black_yellow",
+    "east": "scivity:blocks/stripes/black_yellow/stripes_black_yellow",
+    "west": "scivity:blocks/stripes/black_yellow/stripes_black_yellow",
+    "north": "scivity:blocks/stripes/black_yellow/stripes_black_yellow_lamp",
+    "south": "scivity:blocks/stripes/black_yellow/stripes_black_yellow"
+  }
+}

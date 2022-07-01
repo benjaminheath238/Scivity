@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "scivity:blocks/concrete/lime/concrete_lime",
+    "down": "scivity:blocks/concrete/lime/concrete_lime",
+    "up": "scivity:blocks/concrete/lime/concrete_lime",
+    "east": "scivity:blocks/concrete/lime/concrete_lime",
+    "west": "scivity:blocks/concrete/lime/concrete_lime",
+    "north": "scivity:blocks/concrete/lime/concrete_lime",
+    "south": "scivity:blocks/concrete/lime/concrete_lime"
+  }
+}

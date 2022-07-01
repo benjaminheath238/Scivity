@@ -1,7 +1,7 @@
 {
   "forge_marker": 1,
   "defaults": {
-    "model": "scivity:stripes_black_yellow_panel"
+    "model": "scivity:stripes/black_yellow/stripes_black_yellow_panel"
   },
   "variants": {
     "normal": [{}],
