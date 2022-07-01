@@ -426,6 +426,7 @@ public enum ModBlocks {
                     .next("stripes_red_white_bottom")
                     .next("panel_horizontal")
                     .next("panel_vertical")
+                    .next("tiles")
                     .next("lamp", 5F, 15F, 1F, Material.IRON, true)
                     .build();
         }
@@ -449,6 +450,7 @@ public enum ModBlocks {
                     .next("stripes_red_white_bottom")
                     .next("panel_horizontal")
                     .next("panel_vertical")
+                    .next("tiles")
                     .next("lamp", 5F, 15F, 1F, Material.IRON, true)
                     .build();
         }
