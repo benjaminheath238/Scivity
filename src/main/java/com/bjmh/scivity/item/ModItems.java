@@ -31,7 +31,112 @@ public enum ModItems {
             return items[index];
         }
     },
+
+    CIRCUIT_BOARD() {
+        private Item[] items;
+
+        @Override
+        public void load(ItemFactory factory) {
+            items = factory.newItemGroup("circuit_board")
+                    .next("black")
+                    .next("blue")
+                    .next("green")
+                    .next("purple")
+                    .next("red")
+                    .next("white")
+                    .build();
+        }
+
+        @Override
+        public Item get(int index) {
+            return items[index];
+        }
+    },
+
+    CIRCUIT_BOARD_BASIC() {
+        private Item[] items;
+
+        @Override
+        public void load(ItemFactory factory) {
+            items = factory.newItemGroup("circuit_board_basic")
+                    .next("black")
+                    .next("blue")
+                    .next("green")
+                    .next("purple")
+                    .next("red")
+                    .next("white")
+                    .build();
+        }
+
+        @Override
+        public Item get(int index) {
+            return items[index];
+        }
+    },
+
+    CIRCUIT_BOARD_ADVANCED() {
+        private Item[] items;
+
+        @Override
+        public void load(ItemFactory factory) {
+            items = factory.newItemGroup("circuit_board_advanced")
+                    .next("black")
+                    .next("blue")
+                    .next("green")
+                    .next("purple")
+                    .next("red")
+                    .next("white")
+                    .build();
+        }
+
+        @Override
+        public Item get(int index) {
+            return items[index];
+        }
+    },
+
+    CIRCUIT_BOARD_ELITE() {
+        private Item[] items;
+
+        @Override
+        public void load(ItemFactory factory) {
+            items = factory.newItemGroup("circuit_board_elite")
+                    .next("black")
+                    .next("blue")
+                    .next("green")
+                    .next("purple")
+                    .next("red")
+                    .next("white")
+                    .build();
+        }
+
+        @Override
+        public Item get(int index) {
+            return items[index];
+        }
+    },
     
+    CIRCUIT_BOARD_ULTIMATE() {
+        private Item[] items;
+
+        @Override
+        public void load(ItemFactory factory) {
+            items = factory.newItemGroup("circuit_board_ultimate")
+                    .next("black")
+                    .next("blue")
+                    .next("green")
+                    .next("purple")
+                    .next("red")
+                    .next("white")
+                    .build();
+        }
+
+        @Override
+        public Item get(int index) {
+            return items[index];
+        }
+    },
+
     OTHER() {
         private Item[] items;
 
