@@ -2,7 +2,7 @@
   "parent": "block/cube",
   "textures": {
     "particle": "scivity:blocks/laboratory/shiny/laboratory_shiny_stripes_red_white_bottom",
-    "down": "scivity:blocks/stripes_red_white_panel",
+    "down": "scivity:blocks/red_white//stripes_red_white_panel",
     "up": "scivity:blocks/laboratory/shiny/laboratory_shiny_panel",
     "east": "scivity:blocks/laboratory/shiny/laboratory_shiny_stripes_red_white_bottom",
     "west": "scivity:blocks/laboratory/shiny/laboratory_shiny_stripes_red_white_bottom",

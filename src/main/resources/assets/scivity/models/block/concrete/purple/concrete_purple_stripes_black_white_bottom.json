@@ -2,7 +2,7 @@
   "parent": "block/cube",
   "textures": {
     "particle": "scivity:blocks/concrete/purple/concrete_purple_stripes_black_white_bottom",
-    "down": "scivity:blocks/stripes_black_white_panel",
+    "down": "scivity:blocks/stripes/black_white/stripes_black_white_panel",
     "up": "scivity:blocks/concrete/purple/concrete_purple",
     "east": "scivity:blocks/concrete/purple/concrete_purple_stripes_black_white_bottom",
     "west": "scivity:blocks/concrete/purple/concrete_purple_stripes_black_white_bottom",
